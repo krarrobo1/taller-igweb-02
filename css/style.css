@@ -1,0 +1,132 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+#logo{
+    max-width: 50px;
+    max-height: 50px;
+}
+header {
+    width: auto;
+    height: auto;
+    background-color: rgb(7, 101, 179);
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.header-elem{
+    margin: 1em;
+}
+
+.header-title{
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.section-title{
+    text-align: start;
+    margin-left: 4em;
+    /* background-color: aquamarine; */
+}
+
+
+
+
+.title{
+    padding: 2em;
+    /* box-shadow: 5px 10px; */
+    box-shadow: 5px 10px #c9c9c9;
+    text-align: center;
+}
+.title span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.content-container{
+    width: auto;
+    height: auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    margin-left: 4em;
+    margin-bottom: 2em;
+}
+
+.content-elements{
+    width: auto;
+    height: 300px;
+    padding: 10px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.content-elem{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+    text-align: center;
+    width: 300px;
+}
+.container{
+    width: auto;
+    height: auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.elem{
+    padding: 3em;
+    margin: 1em;
+}
+
+.blog-image{
+    width: auto;
+    max-width: 400px;
+    height: auto;
+}
+
+.center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+nav li a:hover{
+    color: greenyellow
+}
+
+
+footer{
+    padding: 1em;
+    background-color: rgb(7, 101, 179);
+    text-align: center;
+}
+footer span{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
